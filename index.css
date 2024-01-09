@@ -1,44 +1,55 @@
-/* * {
-    text-decoration: none;
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
 }
 
-.navbar {
-    background-color: brown;
-    border-radius: 5px;
+#logo-img{
+    background: url("../images/chin.jpeg") no-repeat;
+    width: 180px;
+    height: 170px;
+    
+    
 }
 
-.navbar ul {
-    overflow: auto;
-}
-.navbar li{
+.pull-left{
     float: left;
-    list-style: none;
-    margin: 13px 20px;
     
 }
 
-.navbar li a{
-    padding: 3px 3px;
+.navbar-brand h1{
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
-    color: white;
 }
 
-.navbar li a:hover{
-    color: red;
+.navbar-brand p{
+color: #000;
+text-transform: uppercase;
+font-size: .7em;
+margin-top: 15px;
 }
-.search{
-    float: right;
-    color: white;
-    padding: 12px 70px;
+
+.navbar-brand p span{
+    vertical-align: middle;
     
 }
 
-#search{
-    border-radius: 30px;
-    padding: 3px 10px;
-    
+img{
+    height: fit-content;
+    width: 1500px;
 }
-
-#img{
-    height: 300px;
-} */
